@@ -553,7 +553,7 @@ img {
 
 .subscribe-form {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
 }
 
 .subscribe-form-input {
@@ -590,7 +590,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
+    min-width: 165px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -606,7 +606,9 @@ img {
     background-color: #404bbf;
 }
 
-.subscribe-icon {}
+.subscribe-icon {
+    margin-left: 16px;
+}
 
 .backdrop {
     width: 100%;
