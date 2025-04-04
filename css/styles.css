@@ -554,6 +554,7 @@ img {
 .subscribe-form {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 .subscribe-form-input {
